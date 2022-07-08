@@ -18,7 +18,10 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## create tailwind.config.js
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {},
   },
